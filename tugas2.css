@@ -1,0 +1,62 @@
+header {
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(5, 36, 5);
+}
+
+/*fieldset*/
+fieldset {
+  width: 49%;
+  padding: 1em;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+legend {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(90, 130, 90);
+  padding: 3px 10px;
+}
+/*label*/
+label {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  display: block;
+  margin: 1em 0 0.5em 0;
+}
+/*input*/
+input {
+  padding: 0.5em;
+  border: 1px solid #999;
+}
+
+
+  textarea {
+    min-height: 5em;
+    min-width: 70%;
+    padding: 0.5em;
+    border: solid 1px #999;
+  }
+
+  /*submit*/
+  input[type="submit"] {
+    background-color: aquamarine;
+  }
+
+  /*footer*/
+  footer {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  button[type="submit"] {
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  background-color: #23b475;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8em;
+}

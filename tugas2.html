@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas Formulir 2</title>
+    <link rel="stylesheet" type=text/css href="tugas2.css">
+    <header>PENDAFTARAN AKUN ANGGOTA HIMATIF</header>
+</head>
+<body>
+
+    
+     <!--tabel akun-->
+    <form>
+      <fieldset>
+        <legend>Data Diri</legend>
+          <form action="#">
+      <!--nama-->
+     <label  for="nama Lengkap">Nama Lengkap :</label>
+      <input type="text" name="nama_pengguna" placeholder="Nama Anda" />
+      <!--ttl-->
+     <label for="tempat_lahir">Tempat/Tanggal Lahir:</label>
+     <input type="text" name="tempat_lahir" placeholder="Tempat Lahir">/<input type="date" name="tanggal_lahir">
+      <!--alamat-->
+     <label for="Alamat">Alamat:</label>
+     <textarea name="alamat" placeholder="Alamat"></textarea>
+      <!--nomor-->
+<label for="number">No Whatshapp:</label>
+      <input type="number" name="no_wa" id="no_wa" placeholder="081234567890"/>
+      <!--email-->
+      <label for="email">Email:</label> 
+<input type="email" name="email" placeholder="Email">
+      <!--radio-->
+<label for="jenis-kelamin">Jenis Kelamin:</label>
+      <input type="radio" name="jenis-kelamin" value="laki-laki" id="laki-laki">
+      Laki-laki
+      <input type="radio" name="jenis-kelamin" value="perempuan" id="perempuan">
+      Perempuan
+<!--divisi-->
+<label for="bidang">Divisi:</label>
+<select name="bidang" id="bidang">
+ <option value="PSDM (Pengembangan Sumber Daya Mahasiswa)">PSDM (Pengembangan Sumber Daya Mahasiswa)</option>
+ <option value="Litbang (Penelitian dan Pengembangan)">Litbang (Penelitian dan Pengembangan)</option>
+ <option value="Mulkominfo (Multimedia, Komunikasi, dan Informasi)">Mulkominfo (Multimedia, Komunikasi, dan Informasi)</option>
+ <option value="Olsen (Olahraga dan Seni)">Olsen (Olahraga dan Seni)</option>
+ <option value="Usaha Mandiri">Usaha Mandiri</option>
+ <option value="Divisi Agama Islam">Divisi Agama Islam</option>
+ <option value="Divisi Agama Kristen">Divisi Agama Kristen</option>
+ <option value="Divisi Agama Buddha">Divisi Agama Buddha</option>
+</select>
+
+</form>
+    </form>
+    </table>
+</fieldset>
+
+<fieldset>
+
+  <legend>Akun</legend>
+<!--username dll-->
+<label>Username:</label>
+<input type="text" name="username" placeholder="Username">
+<label for="password">Password:</label>
+<input type="password" name="password" placeholder="Password" id="password">
+<label for="konfirmasi_password">Konfirmasi Password:</label> 
+<input type="password" name="konfirmasi_password" placeholder="Konfirmasi-Password" id="konfirmasi_password">
+
+</fieldset>
+<!--footer-->
+<footer>
+    <div class="checksbox-group">
+      <input type="checkbox" name="kesiapan" value="siap dengan peraturan" id="siap dengan peraturan">
+      Siap Mengikuti Peraturan
+      <input type="checkbox" name="kesiapan" value="setuju dengan syarat dan ketentuan" id="setuju dengan syarat dan ketentuan">
+      Setuju Dengan Syarat & Ketentuan
+    </div>
+
+ <button type="submit" value="daftar">daftar</button>
+ <button type="reset" name="btn-reset">reset</button>
+</footer>
+
+</html>
